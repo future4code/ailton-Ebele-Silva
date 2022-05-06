@@ -1,0 +1,10 @@
+1- Churrasco
+2- Pizza
+3- Lasanha
+4- Feijoada
+5- Japonesa
+6-Hamburguer
+7- Vinagrete
+8- Massas em geral
+9- Peixe (frito/cozido)
+10- Doces
