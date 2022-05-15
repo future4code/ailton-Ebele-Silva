@@ -108,17 +108,15 @@ function retornaUltimoElemento(array) {
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
-  // let primeiro = array[0]
-  // let ultimo = array[array.length-1]
-  // let reserva = primeiro
-  // let nova = array.replaceAll(primeiro, ultimo)
-  //   .pop()
-  //   .push(reserva)
-  // nova.pop()
-
-
  
-      
+  let primeiroItem = array[0]
+  let copiaPrimeiro = array[0]
+  let ultimoItem = array[array.length-1]
+ 
+  array[0]=ultimoItem
+  array[array.length-1]=copiaPrimeiro
+ 
+return array   
 }
 
 // EXERCÍCIO 12
