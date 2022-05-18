@@ -139,7 +139,7 @@
     //  console.log(assisteFilme())
 
     //********************* DESAFIO ****************
-    
+
     //1.Modifique o código do exercício 4 de escrita de código para, antes de imprimir a mensagem "Bom filme!", pergunte ao usuário, pelo prompt qual lanchinho ele vai comprar (pipoca, chocolate, doces, etc) e imprima no console as mensagens "Bom filme!" e "Aproveite o seu [LANCHINHO]", trocando [LANCHINHO] pelo que o usuário colocou no input.
 
 
@@ -170,3 +170,64 @@
 //         }
 //     }
 //    assisteFilme(generoDoFilme,precoDoIngresso)
+
+
+
+    //2.
+
+    // let nome = prompt('Digite seu nome completo')
+    // let tipoDeJogo = prompt('Tipo de jogo: digite IN para internacional ou DO para doméstico')
+    // let etapaJogo = prompt('Etapa do jogo: digite SF para semi-final, DT para decisão de terceiro lugar ou FI para final')
+    // let categoriaDoJogo = Number(prompt('Digite a categoria escolhida: 1, 2 , 3 ou 4'))
+    // let quantidadeIngressos = prompt('Quantos ingressos deseja comprar?')
+
+    let nome = prompt('Digite seu nome completo')
+    let tipoDeJogo = prompt(`Tipo de jogo - digite o número:
+        [1] - Internacional 
+        [2] - Doméstico`)
+    let etapaJogo = prompt(`Etapa do jogo: digite o número:
+    [1] - Final
+    [2] - Semi-final
+    [3] - Decisão de terceiro lugar`)
+    let categoriaDoJogo = prompt('Digite a categoria escolhida: 1, 2 , 3 ou 4')
+    let quantidadeIngressos = Number(prompt('Quantos ingressos deseja comprar?'))
+
+
+
+
+
+    // function vendeIngressos(jogo,etapa,categoria,quantidade){ 
+        
+        function vendeIngressos(){
+            console.log('---Dados da compra---')
+            console.log(`Nome do cliente: ${nome}`)  
+        switch(tipoDeJogo){
+            case '1':
+                console.log(`Tipo de jogo: Internacional`)
+                break
+            case '2':
+                console.log(`Tipo de jogo: Nacional`)
+                break
+        }      
+        switch(etapaJogo){
+            case '1':
+               console.log(`Etapa do jogo: Final`)
+               break
+            case '2':
+               console.log(`Etapa do jogo: Semi-final`)
+               break
+            case '3':
+               console.log(`Etapa do jogo: Decisão de terceiro lugar`)
+               break
+        }
+              
+    console.log(`Categoria: ${categoriaDoJogo}`)
+    console.log(`Quantidade de ingressos: ${quantidadeIngressos}`)
+    }
+
+    console.log(vendeIngressos(nome,tipoDeJogo,etapaJogo,categoriaDoJogo))
+    
+    // console.log(`Quantidade de ingressos: ${quantidadeIngressos}`)
+    // console.log('---Valores---')
+    // console.log(`Valor do ingresso: ${    }`)
+    // console.log(`Valor total: ${   }`)
