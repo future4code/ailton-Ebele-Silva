@@ -20,9 +20,6 @@ function retornaArrayOrdenado(array) {
 }
 
 // EXERCÍCIO 04
-let novoArray = array.filter(arr) => {
-    return arr % 2 === 0
-}
 function retornaNumerosPares(array) {
   
 }
