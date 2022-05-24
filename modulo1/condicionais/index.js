@@ -170,3 +170,13 @@
 //         }
 //     }
 //    assisteFilme(generoDoFilme,precoDoIngresso)
+
+let numeroPrimo = +prompt('Digite um número')
+
+if(numeroPrimo/numeroPrimo === 1 && numeroPrimo/1 === numeroPrimo){
+    console.log('É primo')
+} else {
+    console.log('Não é primo')
+}
+
+//...
