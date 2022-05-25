@@ -1,0 +1,12 @@
+.nome-da-loja{
+    font-size: 28px;
+    color:rgb(168, 13, 124);
+}
+
+.titulo-funcionarios{
+    color: darkgreen;
+}
+.contato-rodape{
+    display: inline;
+    background-color:antiquewhite;
+}

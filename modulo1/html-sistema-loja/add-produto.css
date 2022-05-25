@@ -1,0 +1,17 @@
+.nome-da-loja{
+    font-size: 28px;
+    color:rgb(168, 13, 124);
+}
+
+.contato-rodape{
+    display: inline;
+    background-color:antiquewhite;
+
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    margin-top:16px;
+    margin-bottom: 16px;
+}
