@@ -1,0 +1,24 @@
+
+.nome-da-loja{
+    font-size: 50px;
+    color:rgb(168, 13, 124);
+}
+
+.subtitulo{
+    color: darkgreen;
+}
+
+.descricao-da-loja{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.siga{
+    font-size:16px;
+}
+
+.contato-rodape{
+    display: inline;
+    background-color:antiquewhite;
+
+}
