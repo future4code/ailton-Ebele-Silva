@@ -136,3 +136,28 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+.imagem-camisetas{
+    max-width: 30px ;
+    max-height:40px ;
+    width: auto;
+    height:auto;
+    padding-left: 5px ;
+    background-color: #ffffff;
+}
+
+.imagem-calca{
+    max-width: 30px ;
+    max-height:40px ;
+    width: auto;
+    height:auto;
+    background-color: #ffffff;
+    padding-left: 5px;
+}
+
+.imagem-chinelo{
+    max-width: 40px ;
+    max-height: 80px ;
+    width: auto;
+    height:auto;
+}
