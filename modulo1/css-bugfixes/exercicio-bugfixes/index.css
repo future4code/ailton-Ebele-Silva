@@ -44,10 +44,13 @@ div img {
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    border-color: #ffaf43;
+    margin-top: 150px;
 }
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+    color: white;
 }
 
 .container {
@@ -137,11 +140,14 @@ td button {
     border-radius: 5px;
     font-size: 10px;
     color: black;
-    margin-left: 640px;
+    margin-left:640px;
+    margin-top: 150px;
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #f3f2ee
+    
+    
 }
 
 .imagem-camisetas{
