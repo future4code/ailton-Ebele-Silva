@@ -56,7 +56,12 @@ div img {
 }
 
 .icone {
-    height: 15px;
+    height: 105px;
+    max-width: 30px ;
+    max-height:40px ;
+    width: auto;
+    height:auto;
+    margin-left: 10px;
 }
 
 
@@ -119,6 +124,8 @@ td button {
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    
+    
 }
 
 
