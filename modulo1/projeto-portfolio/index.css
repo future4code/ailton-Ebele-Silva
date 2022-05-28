@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.body{
+    background-color:rgb(238, 232, 232) ;
+  
+}
+
+.links-navegacao{
+    font-family:Averia Serif, 'Times New Roman', Times, serif; 
+    text-align: center;
+    padding-top: 2vh;
+}
+.links-navegacao  :hover{
+    color:coral;
+}
+
+.links-navegacao  :active{
+    color:whitesmoke ;
+}
+body{
+    font-family:   Cambria, Arial, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-align: center;
+    
+}
+.titulo-portfolio{
+    font-size:50px;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    /* color: rgba(222, 231, 229, 0.826); */
+    color:coral
+    
+}
+
+.topo{
+    background-color: rgb(96, 57, 105);
+}
+.ilustracao{
+    max-height: 10vh;
+    width: auto; 
+    height: auto;
+    margin-top: 1vh;
+    margin-left: 48vw;
+}
+.titulo-quemsoueu{
+    /* text-align: center; */
+    /* padding-top: 15vh; */
+    font-size:xx-large;
+    }
+
+.texto-quem-sou-eu{
+   text-align:justify;
+   margin: 2vh 10vw 0 10vw;
+}
+h2{
+    text-align: center;
+}
+
+.lista-formacao{
+    background-color:rgba(252, 240, 222, 0.656);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 4vh;
+    padding-top:1vh;
+    margin-left: 17vw;
+    margin-right:50vw;
+    margin-top: 5vh;
+    border-radius: 15px 15px;
+}
+.lista-experiencia{ 
+    background-color:rgba(239, 193, 156, 0.427);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-bottom: 4vh;
+    padding-top:1vh;
+    margin-left: 50vw;
+    margin-right:17vw;
+    margin-top: 0vh;
+    margin-bottom: 4vh;
+    border-radius: 15px 15px;
+}
+  /* minha intenção era deixar essas duas informações lado a lado */
+.titulo-projetos{
+    font-size:xx-large;
+    background-color: rgb(96, 57, 105) ;
+    color:coral;
+    padding: 2vh 0vw 2vh 0vw;
+}
+.projeto1{
+    max-height: 80vh;
+    width: auto; 
+    height: auto;
+    margin-top: 10vh;
+    margin-left: 25vw;
+}
+.link-projeto1{
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 25vw;
+}
+.projeto2{
+    max-height: 80vh;
+    width: auto; 
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 18vw;
+}
+.link-projeto2{
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 18vw;
+}
+.projeto3{
+    max-height: 70vh;
+    width: auto; 
+    height: auto;
+    margin-top: 5vh;
+    margin-left: 19vw;
+}
+.link-projeto3{
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 19vw;
+}
+  #titulo-habilidades-comp{
+    /* text-align: center; */
+    /* padding-top: 15vh; */
+    font-size:xx-large;
+    text-align: left;
+    margin: 8vh 10vw 0 10vw;
+    }
+.texto-habilidades-comp{
+   text-align:justify;
+   margin: 2vh 10vw 0 10vw;
+  
+}
+#titulo-habilidades-tec{
+    font-size:xx-large;
+    text-align: left;
+    margin: 8vh 10vw 0 10vw;
+    }
+.texto-habilidades-tec{
+   text-align:justify;
+   margin: 2vh 10vw 0 10vw;
+}
