@@ -42,7 +42,7 @@ h1{
 }
 
 .topo{
-    background-color: rgb(96, 57, 105);
+    background-color: rgba(96, 57, 105, 0.549);
 }
 
 h2{
@@ -52,7 +52,7 @@ h2{
 
 .titulo-blackjack{
     font-size:xx-large;
-    background-color: rgb(96, 57, 105) ;
+    background-color: rgba(96, 57, 105, 0.098) ;
     color:coral;
     padding: 2vh 0vw 2vh 0vw;
 }
@@ -67,14 +67,17 @@ h2{
     text-align: center;
     margin-left: 5vw;
 }
-.lista{
+.lista-tec{
+    display: inline-block;
     margin-left: 5vw;
     margin-top: 5vh;
 }
-.lista2{
+.lista-tec2{
+    padding-right: 95vw;
     margin-left: 7vw;
     margin-top: 1vh;
 }
+
 .projeto1{
     max-height: 80vh;
     width: auto; 

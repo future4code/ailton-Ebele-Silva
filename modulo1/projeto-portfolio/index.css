@@ -42,7 +42,7 @@ h1{
 }
 
 .topo{
-    background-color: rgb(96, 57, 105);
+    background-color: rgba(96, 57, 105,0.549);
 }
 .ilustracao{
     max-height: 10vh;
