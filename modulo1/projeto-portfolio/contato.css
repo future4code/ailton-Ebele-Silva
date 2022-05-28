@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -45,70 +46,6 @@ h1{
     background-color: rgb(96, 57, 105);
 }
 
-h2{
-    text-align: center;
-}
-
-
-.titulo-blackjack{
-    font-size:xx-large;
-    background-color: rgb(96, 57, 105) ;
-    color:coral;
-    padding: 2vh 0vw 2vh 0vw;
-}
-.parag1{
-    margin-left: 5vw;
-} 
-.parag2{
-    text-align: center;
-    margin-left: 5vw;
-} 
-.parag3{
-    text-align: center;
-    margin-left: 5vw;
-}
-.lista{
-    margin-left: 5vw;
-    margin-top: 5vh;
-}
-.lista2{
-    margin-left: 7vw;
-    margin-top: 1vh;
-}
-.projeto1{
-    max-height: 80vh;
-    width: auto; 
-    height: auto;
-    margin-top: 5vh;
-    margin-left: 44vw;
-}
-
-.projeto2{
-    max-height: 80vh;
-    width: auto; 
-    height: auto;
-    margin-top: 5vh;
-    margin-left: 18vw;
-}
-.projeto3{
-    margin-top: 5vh;
-    margin-left: 40vw;
-}
-.link-projeto2{
-    text-align: center;
-    margin-top: 2vh;
-    margin-left: 46vw;
-}
-
-.faixa-projeto{
-    background-color: rgb(96, 57, 105);
-    color:coral;
-    text-align: center;
-    margin-top: 4vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
- 
 .linkedin-icon{
     max-height: 4vh;
     width: auto; 
