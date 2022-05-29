@@ -43,6 +43,7 @@ h1{
 
 .topo{
     background-color: rgba(96, 57, 105, 0.549);
+    
 }
 
 h2{
@@ -88,19 +89,19 @@ h2{
 
 .projeto2{
     max-height: 80vh;
-    width: auto; 
+    width: 75vw; 
     height: auto;
     margin-top: 5vh;
-    margin-left: 18vw;
+    margin-left: 4vw;
 }
 .projeto3{
     margin-top: 5vh;
-    margin-left: 40vw;
+    margin-left: 0vw;
 }
 .link-projeto2{
     text-align: center;
     margin-top: 2vh;
-    margin-left: 46vw;
+    margin-left: 5vw;
 }
 
 .faixa-projeto{

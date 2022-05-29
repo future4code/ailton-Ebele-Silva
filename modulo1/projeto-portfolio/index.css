@@ -45,11 +45,11 @@ h1{
     background-color: rgba(96, 57, 105,0.549);
 }
 .ilustracao{
-    max-height: 10vh;
+    max-height: 30vh;
     width: auto; 
     height: auto;
     margin-top: 1vh;
-    margin-left: 48vw;
+    margin-left: 44vw;
 }
 .titulo-quemsoueu{
     /* text-align: center; */
@@ -94,57 +94,55 @@ h2{
     background-color: rgb(96, 57, 105) ;
     color:coral;
     padding: 2vh 0vw 2vh 0vw;
+    margin-bottom: 4vh;
+    margin-top: 5vh;
 }
-.projeto1{
-    max-height: 80vh;
+/* .projeto1{ */
+    /* max-height: 80vh;
     width: auto; 
     height: auto;
     margin-top: 10vh;
     margin-left: 25vw;
-}
-.link-projeto1{
+} */
+/* .link-projeto1{
     text-align: center;
     margin-top: 2vh;
     margin-left: 25vw;
-}
+} */
 .projeto2{
-    max-height: 80vh;
-    width: auto; 
+    max-height: 50vh;
+    width: 80vw; 
     height: auto;
     margin-top: 5vh;
-    margin-left: 18vw;
+    margin-left: 12vw;
 }
 .link-projeto2{
     text-align: center;
     margin-top: 2vh;
-    margin-left: 18vw;
+    margin-left: 15vw;
+    margin-bottom: 9vh;
 }
-.projeto3{
+/* .projeto3{
     max-height: 70vh;
     width: auto; 
     height: auto;
     margin-top: 5vh;
     margin-left: 19vw;
-}
-.link-projeto3{
+} */
+/* .link-projeto3{
     text-align: center;
     margin-top: 2vh;
     margin-left: 19vw;
-}
-.faixa-projeto{
-    background-color: rgb(96, 57, 105);
-    color:coral;
-    text-align: center;
-    margin-top: 4vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-}
+} */
+
+
   #titulo-habilidades-comp{
     /* text-align: center; */
     /* padding-top: 15vh; */
     font-size:xx-large;
     text-align: left;
     margin: 8vh 10vw 0 10vw;
+    color: coral;
     }
 .texto-habilidades-comp{
    text-align:justify;
@@ -155,6 +153,7 @@ h2{
     font-size:xx-large;
     text-align: left;
     margin: 8vh 10vw 0 10vw;
+    color: coral;
     }
 .texto-habilidades-tec{
    text-align:justify;
@@ -192,9 +191,7 @@ h2{
     height: auto;
     margin-left:10vw;
 }
-.rodape{
-     /* position: absolute; */
-    /* bottom:0;   */
+.rodape{  
     background-color: rgba(255, 127, 80, 0.415);
     text-align: center; 
     line-height: 10vh ;
