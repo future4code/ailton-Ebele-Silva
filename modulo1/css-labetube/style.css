@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.search{
+.barra-de-pesquisa{
     display: flex;
     justify-content: center;
     
@@ -14,7 +14,7 @@
     grid-template-rows: 10vh 80vh 10vh;
     grid-template-columns: repeat(4, 1fr);
 }
-.lupa {
+.botao-para-pesquisar {
     height: 30px;
     width: 30px;
 }
