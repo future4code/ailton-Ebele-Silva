@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.body{
+    background-color:rgb(238, 232, 232) ;
+  
+}
+
+.links-navegacao{
+    font-family:Averia Serif, 'Times New Roman', Times, serif; 
+    text-align: center;
+    padding-top: 2vh;
+}
+.links-navegacao  :hover{
+    color:coral;
+}
+
+.links-navegacao  :active{
+    color:whitesmoke ;
+}
+body{
+    font-family:   Cambria, Arial, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    text-align: center;
+    
+}
+.titulo-portfolio{
+    font-size:50px;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    /* color: rgba(222, 231, 229, 0.826); */
+    color:coral
+    
+}
+
+.topo{
+    background-color: rgb(96, 57, 105,0.549);
+}
+
+.linkedin-icon{
+    max-height: 4vh;
+    width: auto; 
+    height: auto;
+}
+.linkedin-link{
+    max-height: 4vh;
+    width: auto; 
+    height: auto;
+}
+.github-icon{
+    max-height: 3vh;
+    width: auto; 
+    height: auto; 
+}
+.github-link{
+    max-height: 4vh;
+    width: auto; 
+    height: auto;
+    margin-left:10vw;
+}
+.instagram-icon{
+    max-height: 3vh;
+    width: auto; 
+    height: auto;
+}
+.instagram-link{
+    max-height: 4vh;
+    width: auto; 
+    height: auto;
+    margin-left:10vw;
+}
+.rodape{
+     /* position: absolute; */
+    /* bottom:0;   */
+    background-color: rgba(255, 127, 80, 0.415);
+    text-align: center; 
+    line-height: 10vh ;
+    margin-top: 5vh;
+}
