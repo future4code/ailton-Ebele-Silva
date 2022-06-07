@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.smallcard-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px 10px;
+    /* margin-bottom: 5px; */
+    height: 70px;
+}
+
+.page-section-container-pequeno {
+    width: 40vw;
+    margin: 10px 0;
+  }
+
+  .imagem{
+      height: 60px;
+      padding: 10px;
+  }
