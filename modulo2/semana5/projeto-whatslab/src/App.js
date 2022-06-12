@@ -1,85 +1,86 @@
+import React from "react"
+import styled from "styled-components"
+import Botao from "./Components/Botao"
 
 
-import React from "react";
+const Container = styled.div`
+display: flex;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+margin:0 auto;
+background-color: red;
+`
 
 
+const Header = styled.header`
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: purple;
+height: 40px;
+width: 100%;
+font-size: 3vh;
+color: white;
+`
+const Footer = styled.div`
+background-color: purple;
+height: 50px;
+width: 100% ;
+`
 
-class App extends React.Component {
-  state = {
-    pessoas: [
-      {
-        nome: "Ebele",
-        email: "Socorro!",
-       
-      },
-    ],
-  
-    valorInputPessoa: "",
-    valorInputEmail: "",
+
+const Main = styled.div`
+background-color:gray;
+height: 100%;
+width: 100%;
+
+`
+ class App extends React.Component {
+  state={
     
-  };
+    inputNome:"",
+    inputMensagem: "",
+    conversa: [],
+  }
 
-  adicionaPessoa = () => {
-    
-    const novaPessoa = {
-     
-      nome: this.state.valorInputPessoa,
-      email: this.state.valorInputEmail,
-
-    };
-
-    const novoPessoas = [...this.state.pessoas, novaPessoa];
-
+  onChangeNome=(event)=>{
+    console.log(event.target.value)
+    this.setState({inputNome: event.target.value
+    })
+  }
+  onChangeMensagem=(event)=>{
+    console.log(event.target.value)
+    this.setState({inputMensagem: event.target.value
+    })
+  }
+  enviarMensagem=()=>{
+    let arrayMensagem = [...this.state.conversa];
+    arrayMensagem.push({nome:this.state.inputNome, mensagem:this.state.inputMensagem})
    
-    this.setState({ pessoas: novoPessoas });
-    this.setState({
-      valorInputPessoa: "",
-      valorInputEmail: "",
-      
-    });
-  };
 
-  onChangeInputPessoa = (event) => {
-    
-    this.setState({ valorInputPessoa: event.target.value });
-  };
-
-  onChangeInputEmail = (event) => {
-    this.setState({ valorInputEmail: event.target.value });
-  };
-  
+    this.setState({conversa:arrayMensagem})
+  }
   render() {
-    
-    const listaDeComponentes = this.state.pessoas.map((pessoa) => {
+    const arrayCardMensagem=this.state.conversa.map((item, index) =>{
       return (
-        <p>
-          <strong>{pessoa.nome} </strong> : {pessoa.email} 
-        </p>
-      );
-    });
-
-    return (
-      <div class="container">
-         <div>{listaDeComponentes}</div>
-        <div>
-          <input
-          
-            value={this.state.valorInputPessoa}
-            onChange={this.onChangeInputPessoa}
-            placeholder={"Nome"}
-          />
-          <input
-            value={this.state.valorInputEmail}
-            onChange={this.onChangeInputEmail}
-            placeholder={"Mensagem"}
-          />
-      
-          <button onClick={this.adicionaPessoa}>Enviar</button>
-        </div>
-      
+        <div key={index}> 
+          <p> <strong> {item.nome}:</strong> {item.mensagem} </p>
       </div>
-    );
+      )
+    })
+    return (
+      <Container>
+        <Header> WhatsLab </Header>
+        <Main>
+          {arrayCardMensagem}
+        </Main>
+        <Footer>
+      <Botao valorNome={this.state.inputNome} valorMensagem={this.state.inputMensagem} NovoNome={this.onChangeNome} NovaMensagem={this.onChangeMensagem} aoEnviar={this.enviarMensagem}> </Botao>
+         </Footer>
+        
+      </Container>
+    )
   }
 }
-
-export default App;
+export default App
